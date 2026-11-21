@@ -1,0 +1,9 @@
+{
+  "dataset": "gsm8k",
+  "source_file": "datasets\\sources\\gsm8k_test.jsonl",
+  "source_sha256": "3730d312f6e3440559ace48831e51066acaca737f6eabec99bccb9e4b3c39d14",
+  "source_bytes": 749738,
+  "prepared_at": "2026-11-19T23:38:59.549041+00:00",
+  "sample_count": 50,
+  "normalization": "orbit_local_dataset_v2"
+}

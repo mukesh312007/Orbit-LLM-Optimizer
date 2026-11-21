@@ -1,0 +1,12 @@
+{
+  "threads": [2, 4, 6, 8],
+  "context_sizes": [1024, 2048, 4096],
+  "cache_modes": ["prompt-cache-enabled", "prompt-cache-disabled"],
+  "prompt_compression_modes": ["none", "whitespace", "conservative"],
+  "retrieval_modes": [false, true],
+  "retrieval": {
+    "enabled": false,
+    "top_k": 3,
+    "corpus_dir": "datasets/retrieval"
+  }
+}

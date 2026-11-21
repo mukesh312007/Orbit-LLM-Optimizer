@@ -1,0 +1,43 @@
+{
+  "models": [
+    {
+      "model_id": "qwen2.5-1.5b-instruct-q4_k_m-gguf",
+      "display_name": "Qwen2.5 1.5B Instruct Q4_K_M",
+      "family": "Qwen2.5",
+      "parameter_count_b": 1.5,
+      "quantization": "Q4_K_M",
+      "file_path": "models/qwen2.5-1.5b-instruct-q4_k_m.gguf",
+      "format": "GGUF",
+      "backends": ["llama.cpp"],
+      "license": "Apache-2.0",
+      "context_limit": 32768,
+      "estimated_ram_mb": 1600
+    },
+    {
+      "model_id": "ollama-qwen2.5-0.5b",
+      "display_name": "Qwen2.5 0.5B (Ollama)",
+      "family": "Qwen2.5",
+      "parameter_count_b": 0.5,
+      "quantization": "provider-managed",
+      "file_path": null,
+      "format": "Ollama",
+      "backends": ["ollama"],
+      "license": "Apache-2.0",
+      "context_limit": null,
+      "estimated_ram_mb": 1000
+    },
+    {
+      "model_id": "ollama-qwen2.5-1.5b",
+      "display_name": "Qwen2.5 1.5B (Ollama)",
+      "family": "Qwen2.5",
+      "parameter_count_b": 1.5,
+      "quantization": "provider-managed",
+      "file_path": null,
+      "format": "Ollama",
+      "backends": ["ollama"],
+      "license": "Apache-2.0",
+      "context_limit": null,
+      "estimated_ram_mb": 1800
+    }
+  ]
+}

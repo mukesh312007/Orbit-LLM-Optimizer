@@ -1,0 +1,10 @@
+{
+  "dataset": "mmlu_official",
+  "source_directory": "datasets\\sources\\test",
+  "split": "test",
+  "subject_file_count": 57,
+  "sample_count": 50,
+  "source_tree_sha256": "d5c3c4ff879a877b12e7d9333cbd4886495bc99cacd70292db4fba30b153999a",
+  "prepared_at": "2026-11-19T23:55:48.754358+00:00",
+  "format": "official_headerless_question_A_B_C_D_answer_csv"
+}

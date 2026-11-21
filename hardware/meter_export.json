@@ -1,0 +1,10 @@
+{
+  "source": "cpu_time_proxy_simulated",
+  "measurement_kind": "estimated_proxy",
+  "cumulative_joules": 3743912.8125,
+  "cpu_user_seconds": 249594.18749999997,
+  "estimated_tdp_watts": 15.0,
+  "timestamp": "2026-11-19T23:45:38.370675+00:00",
+  "note": "Simulated meter using CPU time proxy. NOT a physical power measurement. For demonstration only.",
+  "warning": "Simulated meter proxy: cpu_user_seconds * TDP. NOT a physical hardware meter."
+}

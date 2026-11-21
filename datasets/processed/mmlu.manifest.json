@@ -1,0 +1,7 @@
+{
+  "dataset": "mmlu",
+  "source_file": "local_demonstration_samples",
+  "prepared_at": "2026-11-19T22:28:03.806078+00:00",
+  "sample_count": 25,
+  "note": "Hand-crafted demonstration samples for local evaluation. Not an official benchmark split."
+}

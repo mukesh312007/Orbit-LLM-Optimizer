@@ -1,0 +1,9 @@
+{
+  "dataset": "ifeval_official",
+  "source_file": "datasets\\sources\\ifeval_input_data.jsonl",
+  "source_sha256": "67ffeee0fcb87c317c5b08a2de85557b4a7e96ada6178aa645b4954fe4b53d49",
+  "source_bytes": 207111,
+  "sample_count": 50,
+  "prepared_at": "2026-11-19T23:55:38.744159+00:00",
+  "evaluation": "Google IFEval official strict/loose checker required; local generic scorer intentionally leaves these unscored."
+}

@@ -1,0 +1,62 @@
+
+[
+  {
+    "id": "Q001",
+    "task_type": "factual",
+    "prompt": "What is the difference between RAM and ROM?",
+    "reference_answer": "RAM is volatile memory used for temporary data while programs are running. ROM is non-volatile memory used to store data or instructions that persist without power.",
+    "required_points": [
+      "RAM is volatile",
+      "RAM is used for temporary working data",
+      "ROM is non-volatile",
+      "ROM retains information without power"
+    ]
+  },
+  {
+    "id": "Q002",
+    "task_type": "explanation",
+    "prompt": "Explain what a database is in simple terms.",
+    "reference_answer": "A database is an organized collection of data that can be stored, accessed, managed and updated electronically.",
+    "required_points": [
+      "Organized collection of data",
+      "Data can be stored",
+      "Data can be retrieved or accessed",
+      "Data can be managed or updated"
+    ]
+  },
+  {
+    "id": "Q003",
+    "task_type": "reasoning",
+    "prompt": "A shop sells a notebook for 40 rupees. If a customer buys 3 notebooks and pays 200 rupees, how much change should they receive? Explain.",
+    "reference_answer": "Three notebooks cost 3 multiplied by 40, which is 120 rupees. The customer receives 200 minus 120, which is 80 rupees in change.",
+    "required_points": [
+      "Calculates total cost as 120 rupees",
+      "Subtracts total cost from 200 rupees",
+      "Gives final change as 80 rupees"
+    ]
+  },
+  {
+    "id": "Q004",
+    "task_type": "coding",
+    "prompt": "Write a Python function that returns the largest of three numbers.",
+    "reference_answer": "A valid Python function should accept three numbers and return their maximum, for example using max(a, b, c).",
+    "required_points": [
+      "Defines a Python function",
+      "Accepts three numbers",
+      "Returns the largest number",
+      "Uses valid Python syntax"
+    ]
+  },
+  {
+    "id": "Q005",
+    "task_type": "summarization",
+    "prompt": "Summarize this text in one sentence: Machine learning is a branch of artificial intelligence in which computers learn patterns from data to make predictions or decisions without being explicitly programmed for every task.",
+    "reference_answer": "Machine learning enables computers to learn patterns from data and use them to make predictions or decisions.",
+    "required_points": [
+      "Mentions learning patterns from data",
+      "Mentions predictions or decisions",
+      "Preserves the original meaning",
+      "Uses one sentence"
+    ]
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "datasets": [
+    {"dataset": "mmlu", "source": "https://huggingface.co/datasets/cais/mmlu", "split": "test", "license_note": "Review source card before download", "target_samples": 50},
+    {"dataset": "gsm8k", "source": "https://huggingface.co/datasets/openai/gsm8k", "split": "test", "license_note": "MIT", "target_samples": 50},
+    {"dataset": "mbpp", "source": "https://huggingface.co/datasets/google-research-datasets/mbpp", "split": "test", "license_note": "Review source card before download", "target_samples": 50},
+    {"dataset": "ifeval", "source": "https://huggingface.co/datasets/google/IFEval", "split": "train", "license_note": "Review source card before download", "target_samples": 50},
+    {"dataset": "cnn_dailymail", "source": "https://huggingface.co/datasets/abisee/cnn_dailymail", "split": "test", "license_note": "Review source card before download", "target_samples": 50}
+  ]
+}

@@ -1,0 +1,9 @@
+# Implementation status
+
+Completed locally: Spider SQL exact-match evaluation against reference queries in the dataset files; a controlled Q4/Q5/Q6 comparison of the same Qwen 1.5B base model; cache, compression, retrieval, and limited general-retrieval studies; dynamic GGUF discovery; and a RAM-safe full configuration-matrix runner. Results are written to separate timestamped JSONL and summary files under `logs/`.
+
+The Qwen 1.5B Q4_K_M, Q5_K_M, and Q6_K artifacts are locally validated and the controlled quantization comparison is available under `logs/quantization_comparisons/`. `python -m benchmarks.quantization_comparison --preflight` reports local artifact validity, disk capacity, and whether `llama-quantize` is installed; it never downloads or converts a model.
+
+MySQL is optional and used only when `DATABASE_URL` is configured. Completed live selections, benchmark trials, and hardware snapshots are mirrored after their JSONL evidence is written; a missing or failed database never blocks a response or JSONL logging. Actual energy remains unavailable until a validated physical meter/counter adapter provides cumulative joules; simulated, CPU-time, and proxy exports are rejected from the physical-energy path. CPU utilisation is retained only as an explicitly estimated proxy.
+
+The calibrated-profile builder now keeps campaigns separate, records trial and prompt coverage, and requires repeated trials for threshold selection. Existing records provide 35 derived Spider profiles, but they do not constitute a complete comparison of every model/configuration: the recorded full-matrix studies include deferred and RAM-skipped candidates, and no standard general-quality benchmark has yet run. The API now launches the exact measured configuration it recommends after a fresh RAM safety check. No raw log or dataset was overwritten.

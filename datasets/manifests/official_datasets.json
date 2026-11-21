@@ -1,0 +1,9 @@
+{
+  "datasets": [
+    {"name": "mmlu", "hf_path": "cais/mmlu", "split": "test", "target_samples": 50, "license": "MIT", "task_type": "multiple_choice", "evaluation_type": "exact_match"},
+    {"name": "gsm8k", "hf_path": "openai/gsm8k", "config": "main", "split": "test", "target_samples": 50, "license": "MIT", "task_type": "reasoning", "evaluation_type": "numeric_exact_match"},
+    {"name": "mbpp", "hf_path": "google-research-datasets/mbpp", "split": "test", "target_samples": 50, "license": "Apache-2.0", "task_type": "code", "evaluation_type": "code_tests"},
+    {"name": "ifeval", "hf_path": "google/IFEval", "split": "train", "target_samples": 50, "license": "Apache-2.0", "task_type": "instruction_following", "evaluation_type": "ifeval"},
+    {"name": "cnn_dailymail", "hf_path": "abisee/cnn_dailymail", "config": "3.0.0", "split": "test", "target_samples": 50, "license": "Apache-2.0", "task_type": "summarization", "evaluation_type": "rouge"}
+  ]
+}

@@ -1,0 +1,1 @@
+"""FastAPI local-only service."""
